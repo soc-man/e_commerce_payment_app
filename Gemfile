@@ -13,6 +13,11 @@ gem 'pg', group: :production
 
 #12 factor for heroku
 gem 'rails_12factor', group: :production
+
+#add twitter bootstrap
+gem 'bootstrap-sass', '3.3.7'
+
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
