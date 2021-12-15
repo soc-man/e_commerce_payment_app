@@ -15,7 +15,7 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 #Stripe for taking payments
-gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
 # Figaro to securely configure App
 gem 'figaro'
