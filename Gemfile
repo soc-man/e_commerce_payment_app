@@ -23,6 +23,7 @@ gem 'figaro'
 #add twitter bootstrap
 gem 'bootstrap-sass', '3.3.7'
 
+gem 'letter_opener', group: :development
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
