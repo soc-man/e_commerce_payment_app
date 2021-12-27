@@ -17,8 +17,14 @@ gem 'rails_12factor', group: :production
 #Stripe for taking payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 
-# Figaro to securely configure App
+#Figaro to securely configure App
 gem 'figaro'
+
+#activeadmin for admin system
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+#devise for user authentication
+gem 'devise'
 
 #add twitter bootstrap
 gem 'bootstrap-sass', '3.3.7'
