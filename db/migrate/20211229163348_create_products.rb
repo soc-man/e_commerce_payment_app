@@ -3,11 +3,12 @@ class CreateProducts < ActiveRecord::Migration[5.2]
     create_table :products do |t|
       t.string :title
       t.string :subtitle
+      t.string :details
       t.string :image_name
-      t.text :description
       t.string :sku
-      t.decimal :price
       t.string :download_url
+      t.decimal :price
+      t.text :description
       
       t.timestamps
     end
