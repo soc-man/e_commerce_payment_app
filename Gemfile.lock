@@ -1,16 +1,12 @@
 GIT
-  remote: https://github.com/gregbell/active_admin.git
-  revision: 119f5e15315791c02ba3a4b300e3799eaf36238d
+  remote: https://github.com/activeadmin/inherited_resources.git
+  revision: a0a350245a2ec76c040f8751707c1d98792534dd
   specs:
-    activeadmin (2.9.0)
-      arbre (~> 1.2, >= 1.2.1)
-      formtastic (>= 3.1, < 5.0)
-      formtastic_i18n (~> 0.4)
-      inherited_resources (~> 1.7)
-      jquery-rails (~> 4.2)
-      kaminari (~> 1.0, >= 1.2.1)
-      railties (>= 5.2, < 6.2)
-      ransack (~> 2.1, >= 2.1.1)
+    inherited_resources (1.13.0)
+      actionpack (>= 5.2, < 7.1)
+      has_scope (~> 0.6)
+      railties (>= 5.2, < 7.1)
+      responders (>= 2, < 4)
 
 GIT
   remote: https://github.com/stripe/stripe-ruby
@@ -44,6 +40,15 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    activeadmin (2.9.0)
+      arbre (~> 1.2, >= 1.2.1)
+      formtastic (>= 3.1, < 5.0)
+      formtastic_i18n (~> 0.4)
+      inherited_resources (~> 1.7)
+      jquery-rails (~> 4.2)
+      kaminari (~> 1.0, >= 1.2.1)
+      railties (>= 5.2, < 6.2)
+      ransack (~> 2.1, >= 2.1.1)
     activejob (5.2.6)
       activesupport (= 5.2.6)
       globalid (>= 0.3.6)
@@ -123,11 +128,6 @@ GEM
       activesupport (>= 5.2)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    inherited_resources (1.13.0)
-      actionpack (>= 5.2, < 6.2)
-      has_scope (~> 0.6)
-      railties (>= 5.2, < 6.2)
-      responders (>= 2, < 4)
     io-like (0.3.1)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
@@ -275,7 +275,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activeadmin!
+  activeadmin
   bootsnap (>= 1.1.0)
   bootstrap-sass (= 3.3.7)
   byebug
@@ -284,6 +284,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   figaro
+  inherited_resources!
   jbuilder (~> 2.5)
   letter_opener
   listen (>= 3.0.5, < 3.2)
