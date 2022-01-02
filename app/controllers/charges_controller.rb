@@ -1,7 +1,7 @@
 class ChargesController < ApplicationController
 	
 	def create
-	  product = Product.find_by_sku("BuildingOne")
+	  product = Product.find_by_sku("ps5")
 	  # Amount in cents
 
 	  customer = Stripe::Customer.create(
