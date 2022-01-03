@@ -9,7 +9,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 
 playstation = Product.create(title: "Quality Playstation", 
     subtitle: "E-shop", image_name: "ps5.jpeg",
-    price: "499.99", sku: "ps5", info: "new Playstation", download_url: "https://rails-e-commerce.s3.us-east-2.amazonaws.com/ps5.jpeg", 
+    price: "499.99", sku: "ps5", info: "new Playstation", download_url: "https://rails-e-commerce.s3.us-east-2.amazonaws.com/ps5.jpg", 
     details: "next gen ps5", description: %{<p>It's a ps5</p>
     })
 
